@@ -14,6 +14,7 @@ Lumosity Presents you:
 
 print("Loading...")
 task.wait(5)
+
 --from inf yield
 function randomString()
 	local length = math.random(10,20)
@@ -94,7 +95,7 @@ G2L["8"]["BorderSizePixel"] = 0;
 G2L["8"]["BackgroundColor3"] = Color3.fromRGB(34, 34, 34);
 G2L["8"]["Size"] = UDim2.new(0, 522, 0, 370);
 G2L["8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["8"]["Position"] = UDim2.new(0.2332310527563095, 0, 0.12424089014530182, 0);
+G2L["8"]["Position"] = UDim2.new(0.21850712597370148, 0, 0.12424089014530182, 0);
 G2L["8"]["Name"] = [[)@#23!!]];
 
 -- StarterGui.random.)@#23!!.rizz
@@ -174,7 +175,7 @@ G2L["11"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["11"]["Text"] = [[placeholer]];
 G2L["11"]["Name"] = [[manager]];
 G2L["11"]["BackgroundTransparency"] = 1;
-G2L["11"]["Position"] = UDim2.new(-0.025063196197152138, 0, 0.29190635681152344, 0);
+G2L["11"]["Position"] = UDim2.new(-0.027146529406309128, 0, 0.2886168956756592, 0);
 
 -- StarterGui.random.)@#23!!.rizz.manager.UIStroke
 G2L["12"] = Instance.new("UIStroke", G2L["11"]);
@@ -203,7 +204,7 @@ G2L["15"]["Size"] = UDim2.new(0, 69, 0, 33);
 G2L["15"]["Name"] = [[wqe]];
 G2L["15"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["15"]["Text"] = [[View Lab]];
-G2L["15"]["Position"] = UDim2.new(-0.025503667071461678, 0, 0.6138128042221069, 0);
+G2L["15"]["Position"] = UDim2.new(-0.025503667071461678, 0, 0.5973654389381409, 0);
 
 -- StarterGui.random.)@#23!!.rizz.wqe.LocalScript
 G2L["16"] = Instance.new("LocalScript", G2L["15"]);
@@ -232,7 +233,7 @@ G2L["19"]["Size"] = UDim2.new(0, 69, 0, 33);
 G2L["19"]["Name"] = [[mfajz]];
 G2L["19"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["19"]["Text"] = [[View Manager]];
-G2L["19"]["Position"] = UDim2.new(-0.025503667071461678, 0, 0.8882670998573303, 0);
+G2L["19"]["Position"] = UDim2.new(-0.025503667071461678, 0, 0.9047144651412964, 0);
 
 -- StarterGui.random.)@#23!!.rizz.mfajz.LocalScript
 G2L["1a"] = Instance.new("LocalScript", G2L["19"]);
@@ -290,7 +291,7 @@ G2L["21"]["Size"] = UDim2.new(0, 66, 0, 55);
 G2L["21"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["21"]["Text"] = [[placeholer]];
 G2L["21"]["Name"] = [[ping]];
-G2L["21"]["Position"] = UDim2.new(0.8724129796028137, 0, 0.45992350578308105, 0);
+G2L["21"]["Position"] = UDim2.new(0.8724129796028137, 0, 0.5980814099311829, 0);
 
 -- StarterGui.random.)@#23!!.rizz.ping.UIStroke
 G2L["22"] = Instance.new("UIStroke", G2L["21"]);
@@ -319,7 +320,7 @@ G2L["25"]["Size"] = UDim2.new(0, 81, 0, 39);
 G2L["25"]["Name"] = [[sdkz]];
 G2L["25"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["25"]["Text"] = [[Sell Usb]];
-G2L["25"]["Position"] = UDim2.new(0.13352559506893158, 0, 0.64214688539505, 0);
+G2L["25"]["Position"] = UDim2.new(0.13144226372241974, 0, 0.5763573050498962, 0);
 
 -- StarterGui.random.)@#23!!.rizz.sdkz.LocalScript
 G2L["26"] = Instance.new("LocalScript", G2L["25"]);
@@ -338,7 +339,7 @@ G2L["27"]["Size"] = UDim2.new(0, 76, 0, 56);
 G2L["27"]["Name"] = [[sdkdkz]];
 G2L["27"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["27"]["Text"] = [[Get files]];
-G2L["27"]["Position"] = UDim2.new(0.3246679902076721, 0, 0.8316341042518616, 0);
+G2L["27"]["Position"] = UDim2.new(0.31633466482162476, 0, 0.8250551819801331, 0);
 
 -- StarterGui.random.)@#23!!.rizz.sdkdkz.LocalScript
 G2L["28"] = Instance.new("LocalScript", G2L["27"]);
@@ -357,7 +358,7 @@ G2L["29"]["Size"] = UDim2.new(0, 118, 0, 14);
 G2L["29"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["29"]["Text"] = [[made by afk1_.]];
 G2L["29"]["BackgroundTransparency"] = 1;
-G2L["29"]["Position"] = UDim2.new(0.8186073303222656, 0, 0.9669146537780762, 0);
+G2L["29"]["Position"] = UDim2.new(-0.06472600251436234, 0, 0.022835681214928627, 0);
 
 -- StarterGui.random.)@#23!!.rizz.sdkzsdwzz
 G2L["2a"] = Instance.new("TextButton", G2L["9"]);
@@ -429,7 +430,7 @@ G2L["30"]["Size"] = UDim2.new(0, 81, 0, 56);
 G2L["30"]["Name"] = [[sdkz]];
 G2L["30"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["30"]["Text"] = [[Get USB]];
-G2L["30"]["Position"] = UDim2.new(0.14394226670265198, 0, 0.8349235653877258, 0);
+G2L["30"]["Position"] = UDim2.new(0.13144226372241974, 0, 0.8283445239067078, 0);
 
 -- StarterGui.random.)@#23!!.rizz.sdkz.LocalScript
 G2L["31"] = Instance.new("LocalScript", G2L["30"]);
@@ -448,7 +449,7 @@ G2L["32"]["Size"] = UDim2.new(0, 81, 0, 39);
 G2L["32"]["Name"] = [[sdkz]];
 G2L["32"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["32"]["Text"] = [[Sell Files]];
-G2L["32"]["Position"] = UDim2.new(0.31382864713668823, 0, 0.64214688539505, 0);
+G2L["32"]["Position"] = UDim2.new(0.3159119784832001, 0, 0.5763573050498962, 0);
 
 -- StarterGui.random.)@#23!!.rizz.sdkz.LocalScript
 G2L["33"] = Instance.new("LocalScript", G2L["32"]);
@@ -467,7 +468,7 @@ G2L["34"]["Size"] = UDim2.new(0, 81, 0, 32);
 G2L["34"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["34"]["Text"] = [[LeftAlt to toggle the ui]];
 G2L["34"]["Name"] = [[toggle]];
-G2L["34"]["Position"] = UDim2.new(-0.025503667071461678, 0, 0.4361812174320221, 0);
+G2L["34"]["Position"] = UDim2.new(0.8307463526725769, 0, 0.4361812174320221, 0);
 
 -- StarterGui.random.)@#23!!.rizz.toggle.UIStroke
 G2L["35"] = Instance.new("UIStroke", G2L["34"]);
@@ -478,59 +479,73 @@ G2L["35"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 G2L["36"] = Instance.new("UICorner", G2L["34"]);
 
 
+-- StarterGui.random.)@#23!!.rizz.ImageLabel
+G2L["37"] = Instance.new("ImageLabel", G2L["9"]);
+G2L["37"]["BorderSizePixel"] = 0;
+G2L["37"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["37"]["Image"] = [[http://www.roblox.com/asset/?id=18788342921]];
+G2L["37"]["Size"] = UDim2.new(0, 35, 0, 34);
+G2L["37"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["37"]["BackgroundTransparency"] = 1;
+G2L["37"]["Position"] = UDim2.new(0.9708333611488342, 0, 0.9230233430862427, 0);
+
 -- StarterGui.random.)@#23!!.frames
-G2L["37"] = Instance.new("Folder", G2L["8"]);
-G2L["37"]["Name"] = [[frames]];
+G2L["38"] = Instance.new("Folder", G2L["8"]);
+G2L["38"]["Name"] = [[frames]];
 
 -- StarterGui.random.)@#23!!.frames.Frame
-G2L["38"] = Instance.new("Frame", G2L["37"]);
-G2L["38"]["BorderSizePixel"] = 0;
-G2L["38"]["BackgroundColor3"] = Color3.fromRGB(9, 0, 255);
-G2L["38"]["Size"] = UDim2.new(0, 522, 0, 7);
-G2L["38"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["38"]["Position"] = UDim2.new(0, 0, 0.18918919563293457, 0);
-
--- StarterGui.random.)@#23!!.frames.Frame
-G2L["39"] = Instance.new("Frame", G2L["37"]);
+G2L["39"] = Instance.new("Frame", G2L["38"]);
 G2L["39"]["BorderSizePixel"] = 0;
 G2L["39"]["BackgroundColor3"] = Color3.fromRGB(9, 0, 255);
-G2L["39"]["Size"] = UDim2.new(0, 269, 0, 7);
+G2L["39"]["Size"] = UDim2.new(0, 522, 0, 7);
 G2L["39"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["39"]["Position"] = UDim2.new(0, 0, 0.6216216087341309, 0);
+G2L["39"]["Position"] = UDim2.new(0, 0, 0.21351350843906403, 0);
 
 -- StarterGui.random.)@#23!!.frames.Frame
-G2L["3a"] = Instance.new("Frame", G2L["37"]);
+G2L["3a"] = Instance.new("Frame", G2L["38"]);
 G2L["3a"]["BorderSizePixel"] = 0;
 G2L["3a"]["BackgroundColor3"] = Color3.fromRGB(9, 0, 255);
-G2L["3a"]["Size"] = UDim2.new(0, 10, 0, 140);
+G2L["3a"]["Size"] = UDim2.new(0, 268, 0, 7);
 G2L["3a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3a"]["Position"] = UDim2.new(0.49659162759780884, 0, 0.6216216087341309, 0);
+G2L["3a"]["Position"] = UDim2.new(0, 0, 0.5729729533195496, 0);
+
+-- StarterGui.random.)@#23!!.frames.Frame
+G2L["3b"] = Instance.new("Frame", G2L["38"]);
+G2L["3b"]["BorderSizePixel"] = 0;
+G2L["3b"]["BackgroundColor3"] = Color3.fromRGB(9, 0, 255);
+G2L["3b"]["Size"] = UDim2.new(0, 10, 0, 151);
+G2L["3b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3b"]["Position"] = UDim2.new(0.4946759045124054, 0, 0.5891891717910767, 0);
 
 -- StarterGui.random.)@#23!!.UICorner
-G2L["3b"] = Instance.new("UICorner", G2L["8"]);
+G2L["3c"] = Instance.new("UICorner", G2L["8"]);
 
 
 -- StarterGui.random.)@#23!!.UIStroke
-G2L["3c"] = Instance.new("UIStroke", G2L["8"]);
-G2L["3c"]["Color"] = Color3.fromRGB(255, 255, 255);
-G2L["3c"]["Thickness"] = 2;
-G2L["3c"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["3d"] = Instance.new("UIStroke", G2L["8"]);
+G2L["3d"]["Color"] = Color3.fromRGB(255, 255, 255);
+G2L["3d"]["Thickness"] = 2;
+G2L["3d"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
 -- StarterGui.random.)@#23!!.UIStroke.UIGradient
-G2L["3d"] = Instance.new("UIGradient", G2L["3c"]);
-G2L["3d"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 5))};
+G2L["3e"] = Instance.new("UIGradient", G2L["3d"]);
+G2L["3e"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 5))};
 
 -- StarterGui.random.)@#23!!.UIStroke.UIGradient.LocalScript
-G2L["3e"] = Instance.new("LocalScript", G2L["3d"]);
+G2L["3f"] = Instance.new("LocalScript", G2L["3e"]);
 
 
 -- StarterGui.random.)@#23!!.k
-G2L["3f"] = Instance.new("LocalScript", G2L["8"]);
-G2L["3f"]["Name"] = [[k]];
+G2L["40"] = Instance.new("LocalScript", G2L["8"]);
+G2L["40"]["Name"] = [[k]];
 
 -- StarterGui.random.)@#23!!.rizzkeybind
-G2L["40"] = Instance.new("LocalScript", G2L["8"]);
-G2L["40"]["Name"] = [[rizzkeybind]];
+G2L["41"] = Instance.new("LocalScript", G2L["8"]);
+G2L["41"]["Name"] = [[rizzkeybind]];
+
+-- StarterGui.random.LocalScript
+G2L["42"] = Instance.new("LocalScript", G2L["1"]);
+
 
 -- StarterGui.random.frjuanos.sigmarizz
 local function C_3()
@@ -823,25 +838,25 @@ local script = G2L["33"];
 end;
 task.spawn(C_33);
 -- StarterGui.random.)@#23!!.UIStroke.UIGradient.LocalScript
-local function C_3e()
-local script = G2L["3e"];
+local function C_3f()
+local script = G2L["3f"];
 	game:GetService("RunService").RenderStepped:Connect(function()
 		script.Parent.Rotation += 5
 	end)
 end;
-task.spawn(C_3e);
+task.spawn(C_3f);
 -- StarterGui.random.)@#23!!.k
-local function C_3f()
-local script = G2L["3f"];
+local function C_40()
+local script = G2L["40"];
 	local frame = script.Parent
 	frame.Draggable = true
 	frame.Active = true
 	frame.Selectable = true
 end;
-task.spawn(C_3f);
+task.spawn(C_40);
 -- StarterGui.random.)@#23!!.rizzkeybind
-local function C_40()
-local script = G2L["40"];
+local function C_41()
+local script = G2L["41"];
 	
 	local UserInputService = game:GetService("UserInputService")
 	
@@ -851,6 +866,14 @@ local script = G2L["40"];
 		end
 	end)
 end;
-task.spawn(C_40);
+task.spawn(C_41);
+-- StarterGui.random.LocalScript
+local function C_42()
+local script = G2L["42"];
+	task.wait(6)
+	
+	print(script.Parent.Name)
+end;
+task.spawn(C_42);
 
 return G2L["1"], require;
