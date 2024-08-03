@@ -14,7 +14,6 @@ Lumosity Presents you:
 
 print("Loading...")
 task.wait(5)
-
 --from inf yield
 function randomString()
 	local length = math.random(10,20)
