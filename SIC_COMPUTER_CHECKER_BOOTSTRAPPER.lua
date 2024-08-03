@@ -14,6 +14,7 @@ Lumosity Presents you:
 
 print("Loading...")
 task.wait(5)
+
 --from inf yield
 function randomString()
 	local length = math.random(10,20)
@@ -31,472 +32,606 @@ G2L["1"] = Instance.new("ScreenGui", game:GetService("CoreGui"));
 G2L["1"]["Name"] = randomString();
 G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 
--- StarterGui.932913812.rizz
-G2L["2"] = Instance.new("Frame", G2L["1"]);
+-- StarterGui.random.frjuanos
+G2L["2"] = Instance.new("TextLabel", G2L["1"]);
+G2L["2"]["TextWrapped"] = true;
 G2L["2"]["BorderSizePixel"] = 0;
+G2L["2"]["TextScaled"] = true;
 G2L["2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["2"]["Size"] = UDim2.new(0, 480, 0, 304);
+G2L["2"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["2"]["TextSize"] = 14;
+G2L["2"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2"]["Size"] = UDim2.new(0, 110, 0, 80);
 G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2"]["Position"] = UDim2.new(0.2531062662601471, 0, 0.14979757368564606, 0);
-G2L["2"]["Name"] = [[rizz]];
+G2L["2"]["Text"] = [[Placeholer]];
+G2L["2"]["Name"] = [[frjuanos]];
+G2L["2"]["Position"] = UDim2.new(0, 0, 0.7348178029060364, 0);
 
--- StarterGui.932913812.rizz.UICorner
-G2L["3"] = Instance.new("UICorner", G2L["2"]);
+-- StarterGui.random.frjuanos.sigmarizz
+G2L["3"] = Instance.new("LocalScript", G2L["2"]);
+G2L["3"]["Name"] = [[sigmarizz]];
 
+-- StarterGui.random.health
+G2L["4"] = Instance.new("TextLabel", G2L["1"]);
+G2L["4"]["TextWrapped"] = true;
+G2L["4"]["BorderSizePixel"] = 0;
+G2L["4"]["TextScaled"] = true;
+G2L["4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["4"]["TextSize"] = 14;
+G2L["4"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4"]["Size"] = UDim2.new(0, 110, 0, 87);
+G2L["4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4"]["Text"] = [[Placeholer]];
+G2L["4"]["Name"] = [[health]];
+G2L["4"]["Position"] = UDim2.new(0, 0, 0.5040485858917236, 0);
 
--- StarterGui.932913812.rizz.UIStroke
-G2L["4"] = Instance.new("UIStroke", G2L["2"]);
-G2L["4"]["Color"] = Color3.fromRGB(255, 255, 255);
-G2L["4"]["Thickness"] = 4;
+-- StarterGui.random.health.sigmarizz
+G2L["5"] = Instance.new("LocalScript", G2L["4"]);
+G2L["5"]["Name"] = [[sigmarizz]];
 
--- StarterGui.932913812.rizz.UIStroke.UIGradient
-G2L["5"] = Instance.new("UIGradient", G2L["4"]);
-G2L["5"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 5)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 0, 0))};
-
--- StarterGui.932913812.rizz.TextLabel
-G2L["6"] = Instance.new("TextLabel", G2L["2"]);
+-- StarterGui.random.raidexp
+G2L["6"] = Instance.new("TextLabel", G2L["1"]);
+G2L["6"]["TextWrapped"] = true;
 G2L["6"]["BorderSizePixel"] = 0;
+G2L["6"]["TextScaled"] = true;
 G2L["6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["6"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["6"]["TextSize"] = 23;
+G2L["6"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["6"]["TextSize"] = 14;
 G2L["6"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["6"]["Size"] = UDim2.new(0, 463, 0, 20);
+G2L["6"]["Size"] = UDim2.new(0, 110, 0, 87);
 G2L["6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["6"]["Text"] = [[SIC COMPUTER CHECKER]];
-G2L["6"]["BackgroundTransparency"] = 1;
-G2L["6"]["Position"] = UDim2.new(0.014251327142119408, 0, 0.02087482623755932, 0);
+G2L["6"]["Text"] = [[Placeholer]];
+G2L["6"]["Name"] = [[raidexp]];
+G2L["6"]["Position"] = UDim2.new(0, 0, 0.2510121464729309, 0);
 
--- StarterGui.932913812.rizz.TextLabel.UIStroke
-G2L["7"] = Instance.new("UIStroke", G2L["6"]);
-G2L["7"]["Thickness"] = 3;
-G2L["7"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+-- StarterGui.random.raidexp.sigmarizz
+G2L["7"] = Instance.new("LocalScript", G2L["6"]);
+G2L["7"]["Name"] = [[sigmarizz]];
 
--- StarterGui.932913812.rizz.TextLabel.UICorner
-G2L["8"] = Instance.new("UICorner", G2L["6"]);
+-- StarterGui.random.)@#23!!
+G2L["8"] = Instance.new("Frame", G2L["1"]);
+G2L["8"]["BorderSizePixel"] = 0;
+G2L["8"]["BackgroundColor3"] = Color3.fromRGB(34, 34, 34);
+G2L["8"]["Size"] = UDim2.new(0, 522, 0, 370);
+G2L["8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8"]["Position"] = UDim2.new(0.2332310527563095, 0, 0.12424089014530182, 0);
+G2L["8"]["Name"] = [[)@#23!!]];
 
-
--- StarterGui.932913812.rizz.lab
-G2L["9"] = Instance.new("TextLabel", G2L["2"]);
+-- StarterGui.random.)@#23!!.rizz
+G2L["9"] = Instance.new("Frame", G2L["8"]);
 G2L["9"]["BorderSizePixel"] = 0;
 G2L["9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["9"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["9"]["TextSize"] = 22;
-G2L["9"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["9"]["Size"] = UDim2.new(0, 320, 0, 20);
-G2L["9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["9"]["Text"] = [[placeholer]];
-G2L["9"]["Name"] = [[lab]];
 G2L["9"]["BackgroundTransparency"] = 1;
-G2L["9"]["Position"] = UDim2.new(0.01433081179857254, 0, 0.16484862565994263, 0);
+G2L["9"]["Size"] = UDim2.new(0, 480, 0, 304);
+G2L["9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9"]["Position"] = UDim2.new(0.03982146456837654, 0, 0.1487186700105667, 0);
+G2L["9"]["Name"] = [[rizz]];
 
--- StarterGui.932913812.rizz.lab.UIStroke
-G2L["a"] = Instance.new("UIStroke", G2L["9"]);
-G2L["a"]["Color"] = Color3.fromRGB(44, 0, 255);
-G2L["a"]["Thickness"] = 3;
-G2L["a"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-
--- StarterGui.932913812.rizz.lab.UICorner
-G2L["b"] = Instance.new("UICorner", G2L["9"]);
+-- StarterGui.random.)@#23!!.rizz.UICorner
+G2L["a"] = Instance.new("UICorner", G2L["9"]);
 
 
--- StarterGui.932913812.rizz.manager
-G2L["c"] = Instance.new("TextLabel", G2L["2"]);
-G2L["c"]["BorderSizePixel"] = 0;
-G2L["c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["c"]["TextSize"] = 22;
-G2L["c"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c"]["Size"] = UDim2.new(0, 320, 0, 20);
-G2L["c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c"]["Text"] = [[placeholer]];
-G2L["c"]["Name"] = [[manager]];
-G2L["c"]["BackgroundTransparency"] = 1;
-G2L["c"]["Position"] = UDim2.new(0.014520136639475822, 0, 0.3149326741695404, 0);
+-- StarterGui.random.)@#23!!.rizz.TextLabel
+G2L["b"] = Instance.new("TextLabel", G2L["9"]);
+G2L["b"]["BorderSizePixel"] = 0;
+G2L["b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["b"]["TextSize"] = 23;
+G2L["b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b"]["Size"] = UDim2.new(0, 463, 0, 20);
+G2L["b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["b"]["Text"] = [[SIC COMPUTER CHECKER]];
+G2L["b"]["BackgroundTransparency"] = 1;
+G2L["b"]["Position"] = UDim2.new(0.024667995050549507, 0, -0.14688833057880402, 0);
 
--- StarterGui.932913812.rizz.manager.UIStroke
-G2L["d"] = Instance.new("UIStroke", G2L["c"]);
-G2L["d"]["Color"] = Color3.fromRGB(44, 0, 255);
-G2L["d"]["Thickness"] = 3;
-G2L["d"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+-- StarterGui.random.)@#23!!.rizz.TextLabel.UIStroke
+G2L["c"] = Instance.new("UIStroke", G2L["b"]);
+G2L["c"]["Color"] = Color3.fromRGB(255, 0, 0);
+G2L["c"]["Thickness"] = 3;
+G2L["c"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
--- StarterGui.932913812.rizz.manager.UICorner
-G2L["e"] = Instance.new("UICorner", G2L["c"]);
+-- StarterGui.random.)@#23!!.rizz.TextLabel.UICorner
+G2L["d"] = Instance.new("UICorner", G2L["b"]);
 
 
--- StarterGui.932913812.rizz.wqeopqwoe
-G2L["f"] = Instance.new("LocalScript", G2L["2"]);
-G2L["f"]["Name"] = [[wqeopqwoe]];
+-- StarterGui.random.)@#23!!.rizz.lab
+G2L["e"] = Instance.new("TextLabel", G2L["9"]);
+G2L["e"]["TextWrapped"] = true;
+G2L["e"]["BorderSizePixel"] = 0;
+G2L["e"]["TextScaled"] = true;
+G2L["e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["e"]["TextSize"] = 22;
+G2L["e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e"]["Size"] = UDim2.new(0, 504, 0, 33);
+G2L["e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e"]["Text"] = [[placeholer]];
+G2L["e"]["Name"] = [[lab]];
+G2L["e"]["BackgroundTransparency"] = 1;
+G2L["e"]["Position"] = UDim2.new(-0.025063196197152138, 0, 0.1385328322649002, 0);
 
--- StarterGui.932913812.rizz.k
-G2L["10"] = Instance.new("LocalScript", G2L["2"]);
-G2L["10"]["Name"] = [[k]];
+-- StarterGui.random.)@#23!!.rizz.lab.UIStroke
+G2L["f"] = Instance.new("UIStroke", G2L["e"]);
+G2L["f"]["Color"] = Color3.fromRGB(44, 0, 255);
+G2L["f"]["Thickness"] = 3;
+G2L["f"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
--- StarterGui.932913812.rizz.wqe
-G2L["11"] = Instance.new("TextButton", G2L["2"]);
+-- StarterGui.random.)@#23!!.rizz.lab.UICorner
+G2L["10"] = Instance.new("UICorner", G2L["e"]);
+
+
+-- StarterGui.random.)@#23!!.rizz.manager
+G2L["11"] = Instance.new("TextLabel", G2L["9"]);
+G2L["11"]["TextWrapped"] = true;
 G2L["11"]["BorderSizePixel"] = 0;
-G2L["11"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["11"]["TextSize"] = 14;
+G2L["11"]["TextScaled"] = true;
+G2L["11"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["11"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["11"]["TextSize"] = 22;
 G2L["11"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["11"]["Size"] = UDim2.new(0, 90, 0, 29);
-G2L["11"]["Name"] = [[wqe]];
+G2L["11"]["Size"] = UDim2.new(0, 505, 0, 34);
 G2L["11"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["11"]["Text"] = [[View Lab]];
-G2L["11"]["Position"] = UDim2.new(0.793246328830719, 0, 0.10640114545822144, 0);
+G2L["11"]["Text"] = [[placeholer]];
+G2L["11"]["Name"] = [[manager]];
+G2L["11"]["BackgroundTransparency"] = 1;
+G2L["11"]["Position"] = UDim2.new(-0.025063196197152138, 0, 0.29190635681152344, 0);
 
--- StarterGui.932913812.rizz.wqe.LocalScript
-G2L["12"] = Instance.new("LocalScript", G2L["11"]);
+-- StarterGui.random.)@#23!!.rizz.manager.UIStroke
+G2L["12"] = Instance.new("UIStroke", G2L["11"]);
+G2L["12"]["Color"] = Color3.fromRGB(44, 0, 255);
+G2L["12"]["Thickness"] = 3;
+G2L["12"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
-
--- StarterGui.932913812.rizz.mfajz
-G2L["13"] = Instance.new("TextButton", G2L["2"]);
-G2L["13"]["BorderSizePixel"] = 0;
-G2L["13"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["13"]["TextSize"] = 14;
-G2L["13"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["13"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["13"]["Size"] = UDim2.new(0, 90, 0, 29);
-G2L["13"]["Name"] = [[mfajz]];
-G2L["13"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["13"]["Text"] = [[View Manager]];
-G2L["13"]["Position"] = UDim2.new(0.793246328830719, 0, 0.33563554286956787, 0);
-
--- StarterGui.932913812.rizz.mfajz.LocalScript
-G2L["14"] = Instance.new("LocalScript", G2L["13"]);
+-- StarterGui.random.)@#23!!.rizz.manager.UICorner
+G2L["13"] = Instance.new("UICorner", G2L["11"]);
 
 
--- StarterGui.932913812.rizz.eee
-G2L["15"] = Instance.new("TextButton", G2L["2"]);
+-- StarterGui.random.)@#23!!.rizz.wqeopqwoe
+G2L["14"] = Instance.new("LocalScript", G2L["9"]);
+G2L["14"]["Name"] = [[wqeopqwoe]];
+
+-- StarterGui.random.)@#23!!.rizz.wqe
+G2L["15"] = Instance.new("TextButton", G2L["9"]);
+G2L["15"]["TextWrapped"] = true;
 G2L["15"]["BorderSizePixel"] = 0;
+G2L["15"]["TextScaled"] = true;
 G2L["15"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["15"]["TextSize"] = 14;
-G2L["15"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["15"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["15"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["15"]["Size"] = UDim2.new(0, 53, 0, 26);
-G2L["15"]["Name"] = [[eee]];
+G2L["15"]["Size"] = UDim2.new(0, 69, 0, 33);
+G2L["15"]["Name"] = [[wqe]];
 G2L["15"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["15"]["Text"] = [[unview]];
-G2L["15"]["Position"] = UDim2.new(0.8684782385826111, 0, 0.2303723841905594, 0);
+G2L["15"]["Text"] = [[View Lab]];
+G2L["15"]["Position"] = UDim2.new(-0.025503667071461678, 0, 0.6138128042221069, 0);
 
--- StarterGui.932913812.rizz.eee.LocalScript
+-- StarterGui.random.)@#23!!.rizz.wqe.LocalScript
 G2L["16"] = Instance.new("LocalScript", G2L["15"]);
 
 
--- StarterGui.932913812.rizz.ImageLabel
-G2L["17"] = Instance.new("ImageLabel", G2L["2"]);
-G2L["17"]["BorderSizePixel"] = 0;
-G2L["17"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["17"]["Image"] = [[http://www.roblox.com/asset/?id=12595592233]];
-G2L["17"]["Size"] = UDim2.new(0, 54, 0, 46);
-G2L["17"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["17"]["Position"] = UDim2.new(0.646926999092102, 0, 0.8184764385223389, 0);
-
--- StarterGui.932913812.rizz.sdkz
-G2L["18"] = Instance.new("TextButton", G2L["2"]);
-G2L["18"]["TextWrapped"] = true;
-G2L["18"]["BorderSizePixel"] = 0;
-G2L["18"]["TextScaled"] = true;
-G2L["18"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["18"]["TextSize"] = 20;
-G2L["18"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["18"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["18"]["Size"] = UDim2.new(0, 81, 0, 39);
-G2L["18"]["Name"] = [[sdkz]];
-G2L["18"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["18"]["Text"] = [[Sell Usb]];
-G2L["18"]["Position"] = UDim2.new(0.250192254781723, 0, 0.625699520111084, 0);
-
--- StarterGui.932913812.rizz.sdkz.LocalScript
-G2L["19"] = Instance.new("LocalScript", G2L["18"]);
+-- StarterGui.random.)@#23!!.rizz.wqe.UICorner
+G2L["17"] = Instance.new("UICorner", G2L["15"]);
 
 
--- StarterGui.932913812.rizz.sdkdkz
-G2L["1a"] = Instance.new("TextButton", G2L["2"]);
-G2L["1a"]["TextWrapped"] = true;
-G2L["1a"]["BorderSizePixel"] = 0;
-G2L["1a"]["TextScaled"] = true;
-G2L["1a"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1a"]["TextSize"] = 20;
-G2L["1a"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["1a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1a"]["Size"] = UDim2.new(0, 76, 0, 56);
-G2L["1a"]["Name"] = [[sdkdkz]];
-G2L["1a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1a"]["Text"] = [[Get files]];
-G2L["1a"]["Position"] = UDim2.new(0.014251292683184147, 0, 0.7757130861282349, 0);
+-- StarterGui.random.)@#23!!.rizz.wqe.UIStroke
+G2L["18"] = Instance.new("UIStroke", G2L["15"]);
+G2L["18"]["Color"] = Color3.fromRGB(255, 0, 0);
+G2L["18"]["Thickness"] = 1.5;
+G2L["18"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
--- StarterGui.932913812.rizz.sdkdkz.LocalScript
-G2L["1b"] = Instance.new("LocalScript", G2L["1a"]);
+-- StarterGui.random.)@#23!!.rizz.mfajz
+G2L["19"] = Instance.new("TextButton", G2L["9"]);
+G2L["19"]["TextWrapped"] = true;
+G2L["19"]["BorderSizePixel"] = 0;
+G2L["19"]["TextScaled"] = true;
+G2L["19"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["19"]["TextSize"] = 14;
+G2L["19"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["19"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["19"]["Size"] = UDim2.new(0, 69, 0, 33);
+G2L["19"]["Name"] = [[mfajz]];
+G2L["19"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["19"]["Text"] = [[View Manager]];
+G2L["19"]["Position"] = UDim2.new(-0.025503667071461678, 0, 0.8882670998573303, 0);
+
+-- StarterGui.random.)@#23!!.rizz.mfajz.LocalScript
+G2L["1a"] = Instance.new("LocalScript", G2L["19"]);
 
 
--- StarterGui.932913812.rizz.ImageLabel
-G2L["1c"] = Instance.new("ImageLabel", G2L["2"]);
-G2L["1c"]["BorderSizePixel"] = 0;
-G2L["1c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1c"]["ImageColor3"] = Color3.fromRGB(255, 63, 214);
-G2L["1c"]["Image"] = [[http://www.roblox.com/asset/?id=18254856597]];
-G2L["1c"]["Size"] = UDim2.new(0, 88, 0, 66);
-G2L["1c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1c"]["BackgroundTransparency"] = 1;
-G2L["1c"]["Position"] = UDim2.new(0.4491996765136719, 0, 0.7558313608169556, 0);
+-- StarterGui.random.)@#23!!.rizz.mfajz.UICorner
+G2L["1b"] = Instance.new("UICorner", G2L["19"]);
 
--- StarterGui.932913812.rizz.TextLabel
-G2L["1d"] = Instance.new("TextLabel", G2L["2"]);
+
+-- StarterGui.random.)@#23!!.rizz.mfajz.UIStroke
+G2L["1c"] = Instance.new("UIStroke", G2L["19"]);
+G2L["1c"]["Color"] = Color3.fromRGB(255, 0, 0);
+G2L["1c"]["Thickness"] = 1.5;
+G2L["1c"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+-- StarterGui.random.)@#23!!.rizz.eee
+G2L["1d"] = Instance.new("TextButton", G2L["9"]);
 G2L["1d"]["TextWrapped"] = true;
 G2L["1d"]["BorderSizePixel"] = 0;
 G2L["1d"]["TextScaled"] = true;
-G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1d"]["TextSize"] = 14;
 G2L["1d"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1d"]["TextSize"] = 23;
-G2L["1d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1d"]["Size"] = UDim2.new(0, 118, 0, 14);
+G2L["1d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1d"]["Size"] = UDim2.new(0, 69, 0, 33);
+G2L["1d"]["Name"] = [[eee]];
 G2L["1d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1d"]["Text"] = [[made by afk1_.]];
-G2L["1d"]["BackgroundTransparency"] = 1;
-G2L["1d"]["Position"] = UDim2.new(0.776940643787384, 0, 0.9570462107658386, 0);
+G2L["1d"]["Text"] = [[Unview]];
+G2L["1d"]["Position"] = UDim2.new(-0.025271734222769737, 0, 0.7501091957092285, 0);
 
--- StarterGui.932913812.rizz.sdkzsdwzz
-G2L["1e"] = Instance.new("TextButton", G2L["2"]);
-G2L["1e"]["TextWrapped"] = true;
-G2L["1e"]["BorderSizePixel"] = 0;
-G2L["1e"]["TextScaled"] = true;
-G2L["1e"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1e"]["TextSize"] = 20;
-G2L["1e"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["1e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1e"]["Size"] = UDim2.new(0, 66, 0, 49);
-G2L["1e"]["Name"] = [[sdkzsdwzz]];
-G2L["1e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1e"]["Text"] = [[execute sakura hub]];
-G2L["1e"]["Position"] = UDim2.new(0.8457906246185303, 0, 0.4645152986049652, 0);
-
--- StarterGui.932913812.rizz.sdkzsdwzz.LocalScript
-G2L["1f"] = Instance.new("LocalScript", G2L["1e"]);
+-- StarterGui.random.)@#23!!.rizz.eee.LocalScript
+G2L["1e"] = Instance.new("LocalScript", G2L["1d"]);
 
 
--- StarterGui.932913812.rizz.sdkzsdwzz
-G2L["20"] = Instance.new("TextButton", G2L["2"]);
-G2L["20"]["TextWrapped"] = true;
-G2L["20"]["BorderSizePixel"] = 0;
-G2L["20"]["TextScaled"] = true;
-G2L["20"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["20"]["TextSize"] = 20;
-G2L["20"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["20"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["20"]["Size"] = UDim2.new(0, 66, 0, 49);
-G2L["20"]["Name"] = [[sdkzsdwzz]];
-G2L["20"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["20"]["Text"] = [[execute sic script]];
-G2L["20"]["Position"] = UDim2.new(0.6815860867500305, 0, 0.4645152986049652, 0);
-
--- StarterGui.932913812.rizz.sdkzsdwzz.LocalScript
-G2L["21"] = Instance.new("LocalScript", G2L["20"]);
+-- StarterGui.random.)@#23!!.rizz.eee.UICorner
+G2L["1f"] = Instance.new("UICorner", G2L["1d"]);
 
 
--- StarterGui.932913812.rizz.sdkzsdwzz
-G2L["22"] = Instance.new("TextButton", G2L["2"]);
-G2L["22"]["TextWrapped"] = true;
-G2L["22"]["BorderSizePixel"] = 0;
-G2L["22"]["TextScaled"] = true;
-G2L["22"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["22"]["TextSize"] = 20;
-G2L["22"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["22"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["22"]["Size"] = UDim2.new(0, 66, 0, 49);
-G2L["22"]["Name"] = [[sdkzsdwzz]];
-G2L["22"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["22"]["Text"] = [[pick up all tools (laggy)]];
-G2L["22"]["Position"] = UDim2.new(0.5300709009170532, 0, 0.4645152986049652, 0);
+-- StarterGui.random.)@#23!!.rizz.eee.UIStroke
+G2L["20"] = Instance.new("UIStroke", G2L["1d"]);
+G2L["20"]["Color"] = Color3.fromRGB(255, 0, 0);
+G2L["20"]["Thickness"] = 1.5;
+G2L["20"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
--- StarterGui.932913812.rizz.sdkzsdwzz.LocalScript
-G2L["23"] = Instance.new("LocalScript", G2L["22"]);
+-- StarterGui.random.)@#23!!.rizz.ping
+G2L["21"] = Instance.new("TextLabel", G2L["9"]);
+G2L["21"]["TextWrapped"] = true;
+G2L["21"]["BorderSizePixel"] = 0;
+G2L["21"]["TextScaled"] = true;
+G2L["21"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["21"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["21"]["TextSize"] = 22;
+G2L["21"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["21"]["Size"] = UDim2.new(0, 66, 0, 55);
+G2L["21"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["21"]["Text"] = [[placeholer]];
+G2L["21"]["Name"] = [[ping]];
+G2L["21"]["Position"] = UDim2.new(0.8724129796028137, 0, 0.45992350578308105, 0);
 
+-- StarterGui.random.)@#23!!.rizz.ping.UIStroke
+G2L["22"] = Instance.new("UIStroke", G2L["21"]);
+G2L["22"]["Color"] = Color3.fromRGB(44, 0, 255);
+G2L["22"]["Thickness"] = 3;
+G2L["22"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
--- StarterGui.932913812.rizz.sdkz
-G2L["24"] = Instance.new("TextButton", G2L["2"]);
-G2L["24"]["TextWrapped"] = true;
-G2L["24"]["BorderSizePixel"] = 0;
-G2L["24"]["TextScaled"] = true;
-G2L["24"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["24"]["TextSize"] = 20;
-G2L["24"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["24"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["24"]["Size"] = UDim2.new(0, 81, 0, 56);
-G2L["24"]["Name"] = [[sdkz]];
-G2L["24"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["24"]["Text"] = [[Get USB]];
-G2L["24"]["Position"] = UDim2.new(0.250192254781723, 0, 0.7757130861282349, 0);
-
--- StarterGui.932913812.rizz.sdkz.LocalScript
-G2L["25"] = Instance.new("LocalScript", G2L["24"]);
+-- StarterGui.random.)@#23!!.rizz.ping.UICorner
+G2L["23"] = Instance.new("UICorner", G2L["21"]);
 
 
--- StarterGui.932913812.rizz.sdkz
-G2L["26"] = Instance.new("TextButton", G2L["2"]);
-G2L["26"]["TextWrapped"] = true;
-G2L["26"]["BorderSizePixel"] = 0;
-G2L["26"]["TextScaled"] = true;
-G2L["26"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["26"]["TextSize"] = 20;
-G2L["26"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["26"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["26"]["Size"] = UDim2.new(0, 81, 0, 39);
-G2L["26"]["Name"] = [[sdkz]];
-G2L["26"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["26"]["Text"] = [[Sell Files]];
-G2L["26"]["Position"] = UDim2.new(0.013828624039888382, 0, 0.625699520111084, 0);
-
--- StarterGui.932913812.rizz.sdkz.LocalScript
-G2L["27"] = Instance.new("LocalScript", G2L["26"]);
+-- StarterGui.random.)@#23!!.rizz.ping.LocalScript
+G2L["24"] = Instance.new("LocalScript", G2L["21"]);
 
 
--- StarterGui.932913812.rizz.TextLabel
-G2L["28"] = Instance.new("TextLabel", G2L["2"]);
-G2L["28"]["TextWrapped"] = true;
-G2L["28"]["BorderSizePixel"] = 0;
-G2L["28"]["TextScaled"] = true;
-G2L["28"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["28"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["28"]["TextSize"] = 23;
-G2L["28"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["28"]["Size"] = UDim2.new(0, 128, 0, 20);
-G2L["28"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["28"]["Text"] = [[LeftAlt to toggle]];
-G2L["28"]["BackgroundTransparency"] = 1;
-G2L["28"]["Position"] = UDim2.new(0.016524020582437515, 0, 0.43401989340782166, 0);
+-- StarterGui.random.)@#23!!.rizz.sdkz
+G2L["25"] = Instance.new("TextButton", G2L["9"]);
+G2L["25"]["TextWrapped"] = true;
+G2L["25"]["BorderSizePixel"] = 0;
+G2L["25"]["TextScaled"] = true;
+G2L["25"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["25"]["TextSize"] = 20;
+G2L["25"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["25"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["25"]["Size"] = UDim2.new(0, 81, 0, 39);
+G2L["25"]["Name"] = [[sdkz]];
+G2L["25"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["25"]["Text"] = [[Sell Usb]];
+G2L["25"]["Position"] = UDim2.new(0.13352559506893158, 0, 0.64214688539505, 0);
 
--- StarterGui.932913812.rizz.TextLabel.UIStroke
-G2L["29"] = Instance.new("UIStroke", G2L["28"]);
-G2L["29"]["Thickness"] = 3;
-G2L["29"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-
--- StarterGui.932913812.rizz.rizzkeybind
-G2L["2a"] = Instance.new("LocalScript", G2L["2"]);
-G2L["2a"]["Name"] = [[rizzkeybind]];
-
--- StarterGui.932913812.rizz.TextLabel
-G2L["2b"] = Instance.new("TextLabel", G2L["2"]);
-G2L["2b"]["TextWrapped"] = true;
-G2L["2b"]["BorderSizePixel"] = 0;
-G2L["2b"]["TextScaled"] = true;
-G2L["2b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["2b"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["2b"]["TextSize"] = 23;
-G2L["2b"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2b"]["Size"] = UDim2.new(0, 165, 0, 20);
-G2L["2b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2b"]["Text"] = [[RightAlt to toggle Health gui]];
-G2L["2b"]["BackgroundTransparency"] = 1;
-G2L["2b"]["Position"] = UDim2.new(0.014251292683184147, 0, 0.5294146537780762, 0);
-
--- StarterGui.932913812.rizz.TextLabel.UIStroke
-G2L["2c"] = Instance.new("UIStroke", G2L["2b"]);
-G2L["2c"]["Thickness"] = 3;
-G2L["2c"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-
--- StarterGui.932913812.rizz.TextLabel
-G2L["2d"] = Instance.new("TextLabel", G2L["2"]);
-G2L["2d"]["TextWrapped"] = true;
-G2L["2d"]["BorderSizePixel"] = 0;
-G2L["2d"]["TextScaled"] = true;
-G2L["2d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["2d"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["2d"]["TextSize"] = 23;
-G2L["2d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2d"]["Size"] = UDim2.new(0, 89, 0, 42);
-G2L["2d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2d"]["Text"] = [[LeftControl to ggle frjuans gui]];
-G2L["2d"]["BackgroundTransparency"] = 1;
-G2L["2d"]["Position"] = UDim2.new(0.7915236353874207, 0, 0.6737396121025085, 0);
-
--- StarterGui.932913812.rizz.TextLabel.UIStroke
-G2L["2e"] = Instance.new("UIStroke", G2L["2d"]);
-G2L["2e"]["Thickness"] = 3;
-G2L["2e"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-
--- StarterGui.932913812.rizz.ping
-G2L["2f"] = Instance.new("TextLabel", G2L["2"]);
-G2L["2f"]["TextWrapped"] = true;
-G2L["2f"]["BorderSizePixel"] = 0;
-G2L["2f"]["TextScaled"] = true;
-G2L["2f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["2f"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["2f"]["TextSize"] = 22;
-G2L["2f"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2f"]["Size"] = UDim2.new(0, 56, 0, 45);
-G2L["2f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2f"]["Text"] = [[placeholer]];
-G2L["2f"]["Name"] = [[ping]];
-G2L["2f"]["BackgroundTransparency"] = 1;
-G2L["2f"]["Position"] = UDim2.new(0.6456906795501709, 0, 0.641822338104248, 0);
-
--- StarterGui.932913812.rizz.ping.UIStroke
-G2L["30"] = Instance.new("UIStroke", G2L["2f"]);
-G2L["30"]["Color"] = Color3.fromRGB(44, 0, 255);
-G2L["30"]["Thickness"] = 3;
-G2L["30"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-
--- StarterGui.932913812.rizz.ping.UICorner
-G2L["31"] = Instance.new("UICorner", G2L["2f"]);
+-- StarterGui.random.)@#23!!.rizz.sdkz.LocalScript
+G2L["26"] = Instance.new("LocalScript", G2L["25"]);
 
 
--- StarterGui.932913812.rizz.ping.LocalScript
-G2L["32"] = Instance.new("LocalScript", G2L["2f"]);
+-- StarterGui.random.)@#23!!.rizz.sdkdkz
+G2L["27"] = Instance.new("TextButton", G2L["9"]);
+G2L["27"]["TextWrapped"] = true;
+G2L["27"]["BorderSizePixel"] = 0;
+G2L["27"]["TextScaled"] = true;
+G2L["27"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["27"]["TextSize"] = 20;
+G2L["27"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["27"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["27"]["Size"] = UDim2.new(0, 76, 0, 56);
+G2L["27"]["Name"] = [[sdkdkz]];
+G2L["27"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["27"]["Text"] = [[Get files]];
+G2L["27"]["Position"] = UDim2.new(0.3246679902076721, 0, 0.8316341042518616, 0);
+
+-- StarterGui.random.)@#23!!.rizz.sdkdkz.LocalScript
+G2L["28"] = Instance.new("LocalScript", G2L["27"]);
 
 
--- StarterGui.932913812.rizz.LocalScript
-G2L["33"] = Instance.new("LocalScript", G2L["2"]);
+-- StarterGui.random.)@#23!!.rizz.TextLabel
+G2L["29"] = Instance.new("TextLabel", G2L["9"]);
+G2L["29"]["TextWrapped"] = true;
+G2L["29"]["BorderSizePixel"] = 0;
+G2L["29"]["TextScaled"] = true;
+G2L["29"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["29"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["29"]["TextSize"] = 23;
+G2L["29"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["29"]["Size"] = UDim2.new(0, 118, 0, 14);
+G2L["29"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["29"]["Text"] = [[made by afk1_.]];
+G2L["29"]["BackgroundTransparency"] = 1;
+G2L["29"]["Position"] = UDim2.new(0.8186073303222656, 0, 0.9669146537780762, 0);
+
+-- StarterGui.random.)@#23!!.rizz.sdkzsdwzz
+G2L["2a"] = Instance.new("TextButton", G2L["9"]);
+G2L["2a"]["TextWrapped"] = true;
+G2L["2a"]["BorderSizePixel"] = 0;
+G2L["2a"]["TextScaled"] = true;
+G2L["2a"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2a"]["TextSize"] = 20;
+G2L["2a"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["2a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2a"]["Size"] = UDim2.new(0, 66, 0, 49);
+G2L["2a"]["Name"] = [[sdkzsdwzz]];
+G2L["2a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2a"]["Text"] = [[execute sakura hub]];
+G2L["2a"]["Position"] = UDim2.new(0.5416239500045776, 0, 0.6684626340866089, 0);
+
+-- StarterGui.random.)@#23!!.rizz.sdkzsdwzz.LocalScript
+G2L["2b"] = Instance.new("LocalScript", G2L["2a"]);
 
 
--- StarterGui.932913812.frjuanos
-G2L["34"] = Instance.new("TextLabel", G2L["1"]);
+-- StarterGui.random.)@#23!!.rizz.sdkzsdwzz
+G2L["2c"] = Instance.new("TextButton", G2L["9"]);
+G2L["2c"]["TextWrapped"] = true;
+G2L["2c"]["BorderSizePixel"] = 0;
+G2L["2c"]["TextScaled"] = true;
+G2L["2c"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2c"]["TextSize"] = 20;
+G2L["2c"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["2c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2c"]["Size"] = UDim2.new(0, 66, 0, 49);
+G2L["2c"]["Name"] = [[sdkzsdwzz]];
+G2L["2c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2c"]["Text"] = [[execute sic script]];
+G2L["2c"]["Position"] = UDim2.new(0.6940860748291016, 0, 0.8592521548271179, 0);
+
+-- StarterGui.random.)@#23!!.rizz.sdkzsdwzz.LocalScript
+G2L["2d"] = Instance.new("LocalScript", G2L["2c"]);
+
+
+-- StarterGui.random.)@#23!!.rizz.sdkzsdwzz
+G2L["2e"] = Instance.new("TextButton", G2L["9"]);
+G2L["2e"]["TextWrapped"] = true;
+G2L["2e"]["BorderSizePixel"] = 0;
+G2L["2e"]["TextScaled"] = true;
+G2L["2e"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2e"]["TextSize"] = 20;
+G2L["2e"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["2e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2e"]["Size"] = UDim2.new(0, 66, 0, 49);
+G2L["2e"]["Name"] = [[sdkzsdwzz]];
+G2L["2e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2e"]["Text"] = [[pick up all tools (laggy)]];
+G2L["2e"]["Position"] = UDim2.new(0.5425708889961243, 0, 0.8592521548271179, 0);
+
+-- StarterGui.random.)@#23!!.rizz.sdkzsdwzz.LocalScript
+G2L["2f"] = Instance.new("LocalScript", G2L["2e"]);
+
+
+-- StarterGui.random.)@#23!!.rizz.sdkz
+G2L["30"] = Instance.new("TextButton", G2L["9"]);
+G2L["30"]["TextWrapped"] = true;
+G2L["30"]["BorderSizePixel"] = 0;
+G2L["30"]["TextScaled"] = true;
+G2L["30"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["30"]["TextSize"] = 20;
+G2L["30"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["30"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["30"]["Size"] = UDim2.new(0, 81, 0, 56);
+G2L["30"]["Name"] = [[sdkz]];
+G2L["30"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["30"]["Text"] = [[Get USB]];
+G2L["30"]["Position"] = UDim2.new(0.14394226670265198, 0, 0.8349235653877258, 0);
+
+-- StarterGui.random.)@#23!!.rizz.sdkz.LocalScript
+G2L["31"] = Instance.new("LocalScript", G2L["30"]);
+
+
+-- StarterGui.random.)@#23!!.rizz.sdkz
+G2L["32"] = Instance.new("TextButton", G2L["9"]);
+G2L["32"]["TextWrapped"] = true;
+G2L["32"]["BorderSizePixel"] = 0;
+G2L["32"]["TextScaled"] = true;
+G2L["32"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["32"]["TextSize"] = 20;
+G2L["32"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["32"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["32"]["Size"] = UDim2.new(0, 81, 0, 39);
+G2L["32"]["Name"] = [[sdkz]];
+G2L["32"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["32"]["Text"] = [[Sell Files]];
+G2L["32"]["Position"] = UDim2.new(0.31382864713668823, 0, 0.64214688539505, 0);
+
+-- StarterGui.random.)@#23!!.rizz.sdkz.LocalScript
+G2L["33"] = Instance.new("LocalScript", G2L["32"]);
+
+
+-- StarterGui.random.)@#23!!.rizz.toggle
+G2L["34"] = Instance.new("TextLabel", G2L["9"]);
 G2L["34"]["TextWrapped"] = true;
 G2L["34"]["BorderSizePixel"] = 0;
 G2L["34"]["TextScaled"] = true;
-G2L["34"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["34"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["34"]["TextSize"] = 14;
-G2L["34"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["34"]["Size"] = UDim2.new(0, 110, 0, 80);
+G2L["34"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["34"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["34"]["TextSize"] = 22;
+G2L["34"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["34"]["Size"] = UDim2.new(0, 81, 0, 32);
 G2L["34"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["34"]["Text"] = [[Placeholer]];
-G2L["34"]["Name"] = [[frjuanos]];
-G2L["34"]["Position"] = UDim2.new(0, 0, 0.7348178029060364, 0);
+G2L["34"]["Text"] = [[LeftAlt to toggle the ui]];
+G2L["34"]["Name"] = [[toggle]];
+G2L["34"]["Position"] = UDim2.new(-0.025503667071461678, 0, 0.4361812174320221, 0);
 
--- StarterGui.932913812.frjuanos.sigmarizz
-G2L["35"] = Instance.new("LocalScript", G2L["34"]);
-G2L["35"]["Name"] = [[sigmarizz]];
+-- StarterGui.random.)@#23!!.rizz.toggle.UIStroke
+G2L["35"] = Instance.new("UIStroke", G2L["34"]);
+G2L["35"]["Color"] = Color3.fromRGB(255, 0, 0);
+G2L["35"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
--- StarterGui.932913812.frjuanos.ohiogyatt
-G2L["36"] = Instance.new("LocalScript", G2L["34"]);
-G2L["36"]["Name"] = [[ohiogyatt]];
+-- StarterGui.random.)@#23!!.rizz.toggle.UICorner
+G2L["36"] = Instance.new("UICorner", G2L["34"]);
 
--- StarterGui.932913812.health
-G2L["37"] = Instance.new("TextLabel", G2L["1"]);
-G2L["37"]["TextWrapped"] = true;
-G2L["37"]["BorderSizePixel"] = 0;
-G2L["37"]["TextScaled"] = true;
-G2L["37"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["37"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["37"]["TextSize"] = 14;
-G2L["37"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["37"]["Size"] = UDim2.new(0, 110, 0, 87);
-G2L["37"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["37"]["Text"] = [[Placeholer]];
-G2L["37"]["Name"] = [[health]];
-G2L["37"]["Position"] = UDim2.new(0, 0, 0.5040485858917236, 0);
 
--- StarterGui.932913812.health.sigmarizz
-G2L["38"] = Instance.new("LocalScript", G2L["37"]);
-G2L["38"]["Name"] = [[sigmarizz]];
+-- StarterGui.random.)@#23!!.frames
+G2L["37"] = Instance.new("Folder", G2L["8"]);
+G2L["37"]["Name"] = [[frames]];
 
--- StarterGui.932913812.health.ohiogyatt
-G2L["39"] = Instance.new("LocalScript", G2L["37"]);
-G2L["39"]["Name"] = [[ohiogyatt]];
+-- StarterGui.random.)@#23!!.frames.Frame
+G2L["38"] = Instance.new("Frame", G2L["37"]);
+G2L["38"]["BorderSizePixel"] = 0;
+G2L["38"]["BackgroundColor3"] = Color3.fromRGB(9, 0, 255);
+G2L["38"]["Size"] = UDim2.new(0, 522, 0, 7);
+G2L["38"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["38"]["Position"] = UDim2.new(0, 0, 0.18918919563293457, 0);
 
--- StarterGui.932913812.rizz.wqeopqwoe
-local function C_f()
-local script = G2L["f"];
+-- StarterGui.random.)@#23!!.frames.Frame
+G2L["39"] = Instance.new("Frame", G2L["37"]);
+G2L["39"]["BorderSizePixel"] = 0;
+G2L["39"]["BackgroundColor3"] = Color3.fromRGB(9, 0, 255);
+G2L["39"]["Size"] = UDim2.new(0, 269, 0, 7);
+G2L["39"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["39"]["Position"] = UDim2.new(0, 0, 0.6216216087341309, 0);
+
+-- StarterGui.random.)@#23!!.frames.Frame
+G2L["3a"] = Instance.new("Frame", G2L["37"]);
+G2L["3a"]["BorderSizePixel"] = 0;
+G2L["3a"]["BackgroundColor3"] = Color3.fromRGB(9, 0, 255);
+G2L["3a"]["Size"] = UDim2.new(0, 10, 0, 140);
+G2L["3a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3a"]["Position"] = UDim2.new(0.49659162759780884, 0, 0.6216216087341309, 0);
+
+-- StarterGui.random.)@#23!!.UICorner
+G2L["3b"] = Instance.new("UICorner", G2L["8"]);
+
+
+-- StarterGui.random.)@#23!!.UIStroke
+G2L["3c"] = Instance.new("UIStroke", G2L["8"]);
+G2L["3c"]["Color"] = Color3.fromRGB(255, 255, 255);
+G2L["3c"]["Thickness"] = 2;
+G2L["3c"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+-- StarterGui.random.)@#23!!.UIStroke.UIGradient
+G2L["3d"] = Instance.new("UIGradient", G2L["3c"]);
+G2L["3d"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 5))};
+
+-- StarterGui.random.)@#23!!.UIStroke.UIGradient.LocalScript
+G2L["3e"] = Instance.new("LocalScript", G2L["3d"]);
+
+
+-- StarterGui.random.)@#23!!.k
+G2L["3f"] = Instance.new("LocalScript", G2L["8"]);
+G2L["3f"]["Name"] = [[k]];
+
+-- StarterGui.random.)@#23!!.rizzkeybind
+G2L["40"] = Instance.new("LocalScript", G2L["8"]);
+G2L["40"]["Name"] = [[rizzkeybind]];
+
+-- StarterGui.random.frjuanos.sigmarizz
+local function C_3()
+local script = G2L["3"];
+	
+	local player = game.Players.LocalPlayer
+	local textLabel = script.Parent
+	
+	local function updateFrjuanos()
+		if player.Character then
+			local leader = player:FindFirstChild("leaderstats")
+			if leader then
+				textLabel.Text = "Frjuans: " .. tostring(math.floor(leader.frjuans.Value))
+			else
+				textLabel.Text = "placeholer"
+			end
+		else
+			textLabel.Text = "placeholer"
+		end
+	end
+	updateFrjuanos()
+	
+	player.CharacterAdded:Connect(function()
+		updateFrjuanos()
+	end)
+	
+	while true do
+		task.wait(0.2)
+		updateFrjuanos()
+	end
+	
+end;
+task.spawn(C_3);
+-- StarterGui.random.health.sigmarizz
+local function C_5()
+local script = G2L["5"];
+	
+	local player = game.Players.LocalPlayer
+	local textLabel = script.Parent
+	
+	local function updateHealth()
+		if player.Character then
+			local humanoid = player.Character:FindFirstChildOfClass("Humanoid")
+			if humanoid then
+				textLabel.Text = "Health: " .. tostring(math.floor(humanoid.Health))
+			else
+				textLabel.Text = "placeholer"
+			end
+		else
+			textLabel.Text = "placeholer"
+		end
+	end
+	updateHealth()
+	
+	player.CharacterAdded:Connect(function()
+		updateHealth()
+	end)
+	
+	while true do
+		task.wait(0.2)
+		updateHealth()
+	end
+	
+end;
+task.spawn(C_5);
+-- StarterGui.random.raidexp.sigmarizz
+local function C_7()
+local script = G2L["7"];
+	
+	local player = game.Players.LocalPlayer
+	local textLabel = script.Parent
+	
+	local function updateHealth()
+		if player.Character then
+			local raidexp = player.raidexp
+			if raidexp then
+				textLabel.Text = "Raider Exp: " .. tostring(math.floor(raidexp.Value))
+			else
+				textLabel.Text = "placeholer"
+			end
+		else
+			textLabel.Text = "placeholer"
+		end
+	end
+	updateHealth()
+	
+	player.CharacterAdded:Connect(function()
+		updateHealth()
+	end)
+	
+	while true do
+		task.wait(0.2)
+		updateHealth()
+	end
+	
+end;
+task.spawn(C_7);
+-- StarterGui.random.)@#23!!.rizz.wqeopqwoe
+local function C_14()
+local script = G2L["14"];
 	--[[ VARIABLES ]]-- 
 	
 	local labcomputer = game.Workspace:FindFirstChild("EVILcompooter"):FindFirstChild("SurfaceGui").Frame
@@ -538,39 +673,30 @@ local script = G2L["f"];
 		checkmanager()
 	end
 end;
-task.spawn(C_f);
--- StarterGui.932913812.rizz.k
-local function C_10()
-local script = G2L["10"];
-	local frame = script.Parent
-	frame.Draggable = true
-	frame.Active = true
-	frame.Selectable = true
-end;
-task.spawn(C_10);
--- StarterGui.932913812.rizz.wqe.LocalScript
-local function C_12()
-local script = G2L["12"];
+task.spawn(C_14);
+-- StarterGui.random.)@#23!!.rizz.wqe.LocalScript
+local function C_16()
+local script = G2L["16"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		workspace.CurrentCamera.CameraSubject = game.Workspace.EVILcompooter
 	end)
 end;
-task.spawn(C_12);
--- StarterGui.932913812.rizz.mfajz.LocalScript
-local function C_14()
-local script = G2L["14"];
+task.spawn(C_16);
+-- StarterGui.random.)@#23!!.rizz.mfajz.LocalScript
+local function C_1a()
+local script = G2L["1a"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		workspace.CurrentCamera.CameraSubject = game.Workspace.compooter or game.Workspace.memetickillagent
 	end)
 end;
-task.spawn(C_14);
--- StarterGui.932913812.rizz.eee.LocalScript
-local function C_16()
-local script = G2L["16"];
+task.spawn(C_1a);
+-- StarterGui.random.)@#23!!.rizz.eee.LocalScript
+local function C_1e()
+local script = G2L["1e"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
@@ -578,10 +704,24 @@ local script = G2L["16"];
 	end)
 	
 end;
-task.spawn(C_16);
--- StarterGui.932913812.rizz.sdkz.LocalScript
-local function C_19()
-local script = G2L["19"];
+task.spawn(C_1e);
+-- StarterGui.random.)@#23!!.rizz.ping.LocalScript
+local function C_24()
+local script = G2L["24"];
+	
+	while task.wait(0.03) do
+		-- Print your ping without decimals
+		-- Discord -> .synchronise.
+		-- Discord Server -> .gg/mfFzmPzRha
+		local Ping = string.split(game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString(), " ")[1]
+		local getridofgoofydecimals = string.format("%.0f", Ping)
+		script.Parent.Text = "ping: "..getridofgoofydecimals
+	end
+end;
+task.spawn(C_24);
+-- StarterGui.random.)@#23!!.rizz.sdkz.LocalScript
+local function C_26()
+local script = G2L["26"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
@@ -599,10 +739,10 @@ local script = G2L["19"];
 		end
 	end)
 end;
-task.spawn(C_19);
--- StarterGui.932913812.rizz.sdkdkz.LocalScript
-local function C_1b()
-local script = G2L["1b"];
+task.spawn(C_26);
+-- StarterGui.random.)@#23!!.rizz.sdkdkz.LocalScript
+local function C_28()
+local script = G2L["28"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
@@ -613,30 +753,30 @@ local script = G2L["1b"];
 		end
 	end)
 end;
-task.spawn(C_1b);
--- StarterGui.932913812.rizz.sdkzsdwzz.LocalScript
-local function C_1f()
-local script = G2L["1f"];
+task.spawn(C_28);
+-- StarterGui.random.)@#23!!.rizz.sdkzsdwzz.LocalScript
+local function C_2b()
+local script = G2L["2b"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/afkplus1/sic/main/sakura.lua"))()
 	end)
 end;
-task.spawn(C_1f);
--- StarterGui.932913812.rizz.sdkzsdwzz.LocalScript
-local function C_21()
-local script = G2L["21"];
+task.spawn(C_2b);
+-- StarterGui.random.)@#23!!.rizz.sdkzsdwzz.LocalScript
+local function C_2d()
+local script = G2L["2d"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/afkplus1/sic/main/sicidk.lua"))()
 	end)
 end;
-task.spawn(C_21);
--- StarterGui.932913812.rizz.sdkzsdwzz.LocalScript
-local function C_23()
-local script = G2L["23"];
+task.spawn(C_2d);
+-- StarterGui.random.)@#23!!.rizz.sdkzsdwzz.LocalScript
+local function C_2f()
+local script = G2L["2f"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
@@ -647,10 +787,10 @@ local script = G2L["23"];
 		end
 	end)
 end;
-task.spawn(C_23);
--- StarterGui.932913812.rizz.sdkz.LocalScript
-local function C_25()
-local script = G2L["25"];
+task.spawn(C_2f);
+-- StarterGui.random.)@#23!!.rizz.sdkz.LocalScript
+local function C_31()
+local script = G2L["31"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
@@ -661,10 +801,10 @@ local script = G2L["25"];
 		end
 	end)
 end;
-task.spawn(C_25);
--- StarterGui.932913812.rizz.sdkz.LocalScript
-local function C_27()
-local script = G2L["27"];
+task.spawn(C_31);
+-- StarterGui.random.)@#23!!.rizz.sdkz.LocalScript
+local function C_33()
+local script = G2L["33"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
@@ -682,10 +822,27 @@ local script = G2L["27"];
 		end
 	end)
 end;
-task.spawn(C_27);
--- StarterGui.932913812.rizz.rizzkeybind
-local function C_2a()
-local script = G2L["2a"];
+task.spawn(C_33);
+-- StarterGui.random.)@#23!!.UIStroke.UIGradient.LocalScript
+local function C_3e()
+local script = G2L["3e"];
+	game:GetService("RunService").RenderStepped:Connect(function()
+		script.Parent.Rotation += 5
+	end)
+end;
+task.spawn(C_3e);
+-- StarterGui.random.)@#23!!.k
+local function C_3f()
+local script = G2L["3f"];
+	local frame = script.Parent
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end;
+task.spawn(C_3f);
+-- StarterGui.random.)@#23!!.rizzkeybind
+local function C_40()
+local script = G2L["40"];
 	
 	local UserInputService = game:GetService("UserInputService")
 	
@@ -695,118 +852,6 @@ local script = G2L["2a"];
 		end
 	end)
 end;
-task.spawn(C_2a);
--- StarterGui.932913812.rizz.ping.LocalScript
-local function C_32()
-local script = G2L["32"];
-	
-	while task.wait(0.03) do
-		-- Print your ping without decimals
-		-- Discord -> .synchronise.
-		-- Discord Server -> .gg/mfFzmPzRha
-		local Ping = string.split(game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString(), " ")[1]
-		local getridofgoofydecimals = string.format("%.0f", Ping)
-		script.Parent.Text = getridofgoofydecimals
-	end
-end;
-task.spawn(C_32);
--- StarterGui.932913812.rizz.LocalScript
-local function C_33()
-local script = G2L["33"];
-	game:GetService("RunService").RenderStepped:Connect(function()
-		script.Parent.UIStroke.UIGradient.Rotation += 5
-	end)
-end;
-task.spawn(C_33);
--- StarterGui.932913812.frjuanos.sigmarizz
-local function C_35()
-local script = G2L["35"];
-	
-	local player = game.Players.LocalPlayer
-	local textLabel = script.Parent
-	
-	local function updateFrjuanos()
-		if player.Character then
-			local leader = player:FindFirstChild("leaderstats")
-			if leader then
-				textLabel.Text = "Frjuans: " .. tostring(math.floor(leader.frjuans.Value))
-			else
-				textLabel.Text = "placeholer"
-			end
-		else
-			textLabel.Text = "placeholer"
-		end
-	end
-	updateFrjuanos()
-	
-	player.CharacterAdded:Connect(function()
-		updateFrjuanos()
-	end)
-	
-	while true do
-		task.wait(0.2)
-		updateFrjuanos()
-	end
-	
-end;
-task.spawn(C_35);
--- StarterGui.932913812.frjuanos.ohiogyatt
-local function C_36()
-local script = G2L["36"];
-	
-	local UserInputService = game:GetService("UserInputService")
-	
-	UserInputService.InputBegan:connect(function(a)
-		if a.UserInputType == Enum.UserInputType.Keyboard and a.KeyCode == Enum.KeyCode.LeftControl then
-			script.Parent.Visible = not script.Parent.Visible
-		end
-	end)
-end;
-task.spawn(C_36);
--- StarterGui.932913812.health.sigmarizz
-local function C_38()
-local script = G2L["38"];
-	
-	local player = game.Players.LocalPlayer
-	local textLabel = script.Parent
-	
-	local function updateHealth()
-		if player.Character then
-			local humanoid = player.Character:FindFirstChildOfClass("Humanoid")
-			if humanoid then
-				textLabel.Text = "Health: " .. tostring(math.floor(humanoid.Health))
-			else
-				textLabel.Text = "placeholer"
-			end
-		else
-			textLabel.Text = "placeholer"
-		end
-	end
-	updateHealth()
-	
-	player.CharacterAdded:Connect(function()
-		updateHealth()
-	end)
-	
-	while true do
-		task.wait(0.2)
-		updateHealth()
-	end
-	
-end;
-task.spawn(C_38);
--- StarterGui.932913812.health.ohiogyatt
-local function C_39()
-local script = G2L["39"];
-	
-	local UserInputService = game:GetService("UserInputService")
-	
-	UserInputService.InputBegan:connect(function(a)
-		if a.UserInputType == Enum.UserInputType.Keyboard and a.KeyCode == Enum.KeyCode.RightAlt then
-			script.Parent.Visible = not script.Parent.Visible
-		end
-	end)
-end;
-task.spawn(C_39);
+task.spawn(C_40);
 
 return G2L["1"], require;
