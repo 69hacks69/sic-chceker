@@ -13,7 +13,7 @@ Lumosity Presents you:
 ]]
 
 print("Loading...")
-task.wait(5)
+task.wait(10)
 
 --from inf yield
 function randomString()
